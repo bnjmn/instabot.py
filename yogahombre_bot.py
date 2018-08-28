@@ -32,6 +32,8 @@ bot = InstaBot(
               ],
     tag_blacklist=['rain', 'thunderstorm', 'nsfw'],
     user_blacklist={},
+    media_max_like=500,
+    media_min_like=0,
     max_like_for_one_tag=50,
     follow_per_day=100,
     follow_time=1 * 60 * 60 * 48,  # 2 days
